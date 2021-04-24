@@ -38,7 +38,7 @@ const Payment = ({navigation}) => {
         width: 150,
         height: 50
       }}
-      onPress={() => navigation.push('ShoppingHome')}
+      onPress={() => navigation.navigate('ShopArea')}
       >
         <Text style={{fontSize: 20,fontWeight: 500,color:'white',alignItems:'center'}}>Get Started</Text>
     </TouchableOpacity>
@@ -68,7 +68,7 @@ const Payment = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-   // backgroundColor: '#DCD9CD',
+    backgroundColor: '#fff',
     alignItems:'center'
   },
   dot: {

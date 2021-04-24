@@ -68,7 +68,7 @@ const Cart = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-   // backgroundColor: '#DCD9CD',
+    backgroundColor: '#fff',
     alignItems:'center'
   },
   dot: {

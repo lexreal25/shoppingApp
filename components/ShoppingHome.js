@@ -69,7 +69,7 @@ const ShoppingHome = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-   // backgroundColor: '#DCD9CD',
+    backgroundColor:'#fff' ,//'#DCD9CD',
     alignItems:'center'
   },
   dot: {
